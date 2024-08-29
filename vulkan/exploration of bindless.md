@@ -4,7 +4,7 @@ There is no doubt that in modern days, we need our renderers to be bindless. The
 
 I started learning OpenGL during the last year of my high school, I was attracted immediately by how powerful and beautiful graphics programming can be. I just simplily enjoy working with low level graphics system and yes I do like games.
 
-However, as time goes by, I ran into a dead end: I can not build simplily an abstraction layer/renderer or something similar on OpenGL that is both scalable and modular. The codes got extremely messy and chaotics. I realized there is barely an elegant way to build such renderer. Everything was just couple together and somehow the performance will never be good.......
+However, as time goes by, I ran into a dead end: I can not build simplily an abstraction layer/renderer or something similar on OpenGL that is both scalable and modular. The codes got extremely messy and chaotics. I realized there is barely an elegant way to build such renderer. Everything was just coupled together and somehow the performance was never good.......
 
 Then I try what so call "Mordern OpenGL" and DX11, things still looks bad. They help me decouple my code and make them a little bit modular by trading a huge codebase. Most importantly, there was not a measureable performance leap in my code. And precisely at that time, I know I need to try something new. Which is Vulkan.
 
