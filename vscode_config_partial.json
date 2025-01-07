@@ -1,0 +1,308 @@
+{
+    "files.autoGuessEncoding": true,
+    "workbench.editorAssociations": {
+        "*.csf": "hexEditor.hexedit",
+        "*.bin": "hexEditor.hexedit",
+        "*.png": "imagePreview.previewEditor",
+        "*.pdf": "pdf.preview",
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "workbench.colorCustomizations": {
+        "[Visual Studio Dark - C++]": {},
+        "terminal.foreground": "#cccccc",
+        "terminal.background": "#0c0c0c",
+        "editorLineNumber.foreground": "default",
+        "editorLineNumber.activeForeground": "default"
+    },
+    "workbench.tips.enabled": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "[csharp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {},
+    "[python]": {
+        "editor.wordBasedSuggestions": "off"
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "autoHide.panelDelay": 0,
+    "autoHide.hideOnOpen": false,
+    "autoHide.sideBarDelay": 0,
+    "autoHide.autoHideSideBar": false,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true,
+    "git.ignoreMissingGitWarning": true,
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+        "**.ilk": true,
+        "**.obj": true,
+        "**.pdb": true,
+        "**/.cache": true,
+        "**/.ccls-cache": true,
+        "**/.classpath": true,
+        "**/.factorypath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/**.ilk": true,
+        "**/**.pdb": true
+    },
+    "telemetry.telemetryLevel": "off",
+    "zenMode.centerLayout": false,
+    "workbench.localHistory.enabled": false,
+    "clangd.arguments": [
+        "--completion-style=bundled",
+        "--header-insertion=never",
+        "--function-arg-placeholders=0",
+        "--header-insertion-decorators=0",
+        "--log=error",
+        "--offset-encoding=utf-32",
+        "--pretty",
+        "--all-scopes-completion=false",
+        "--background-index=1",
+        "--pch-storage=memory",
+        "-j=16",
+        "--clang-tidy"
+    ],
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.wordBasedSuggestions": "off",
+    "scm.defaultViewMode": "tree",
+    "editor.inlayHints.enabled": "off",
+    "editor.bracketPairColorization.enabled": false,
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "cmake.statusbar.visibility": "compact",
+    "debug.console.closeOnEnd": true,
+    "debug.console.collapseIdenticalLines": false,
+    "debug.internalConsoleOptions": "neverOpen",
+    "cmake.revealLog": "never",
+    "debug.onTaskErrors": "abort",
+    "debug.allowBreakpointsEverywhere": true,
+    "[java]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "java.format.enabled": false,
+    "scm.inputFontSize": 14,
+    "markdown.preview.fontSize": 16,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "MSYS2": {
+            "path": "E:/dev_load/msys2/msys2_shell.cmd",
+            "args": [
+                "-defterm",
+                "-here",
+                "-no-start",
+                "-ucrt64"
+            ]
+        }
+    },
+    "python.analysis.autoImportCompletions": false,
+    "C_mantic.caseStyle": "snake_case",
+    "C_mantic.cpp.curlyBraceFormat.function": "New line",
+    "C_mantic.cpp.curlyBraceFormat.namespace": "New line",
+    "update.showReleaseNotes": false,
+    "git.confirmSync": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideLineNumbers": false,
+    "C_mantic.revealNewDefinition": false,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "files.eol": "\n",
+    "terminal.integrated.cursorBlinking": true,
+    "git.autofetch": true,
+    "editor.accessibilitySupport": "off",
+    "editor.snippetSuggestions": "none",
+    "doxdocgen.generic.useGitUserEmail": true,
+    "doxdocgen.generic.useGitUserName": true,
+    "git.openRepositoryInParentFolders": "never",
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "C_Cpp.debugShortcut": false,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+    "C_Cpp.suggestSnippets": false,
+    "C_Cpp.formatting": "disabled",
+    "C_Cpp.doxygen.generatedStyle": "/**",
+    "C_Cpp.loggingLevel": "None",
+    "clangd.serverCompletionRanking": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "C_mantic.contextMenu.switchHeaderSource": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
+    "C_Cpp.intelliSenseMemoryLimit": 8192,
+    "C_Cpp.intelliSenseCacheSize": 10240,
+    "C_Cpp.caseSensitiveFileSupport": "enabled",
+    "C_mantic.headerGuard.defineFormat": "${DIR}_${FILE_NAME}_${EXT}",
+    "remote.SSH.remotePlatform": {
+        "linux6.caslab.queensu.ca": "linux",
+        "linux1.caslab.queensu.ca": "linux",
+        "localhost": "linux"
+    },
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "local-history.absolute": true,
+    "workbench.editor.empty.hint": "hidden",
+    "settingsSync.ignoredSettings": [
+        "terminal.integrated.fontSize",
+        "editor.fontFamily",
+        "editor.fontSize",
+        "local-history.enabled"
+    ],
+    "editor.semanticTokenColorCustomizations": {
+        "[Visual Studio Dark - C++]": {
+            "enabled": true,
+            "rules": {
+                "concept": "#4EC9B0",
+            }
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Visual Studio Dark - C++]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "keyword.operator.new.cpp",
+                        "keyword.operator.delete.cpp",
+                        "keyword.operator.new",
+                        "keyword.operator.delete",
+                        "keyword.other.using"
+                    ],
+                    "settings": {
+                        "foreground": "#D8A0DF"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.namespace"
+                    ],
+                    "settings": {
+                        "foreground": "#4EC9B0"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable",
+                        "variable.parameter",
+                        "variable.other.global",
+                        "variable.other.property"
+                    ],
+                    "settings": {
+                        "foreground": "#9CDCFE"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#4FC1FF"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.function.preprocessor"
+                    ],
+                    "settings": {
+                        "foreground": "#569cd6"
+                    }
+                }
+            ]
+        }
+    },
+    "local-history.maxDisplay": 1000,
+    "terminal.integrated.cursorStyleInactive": "none",
+    "local-history.treeLocation": "localHistory",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "editor.stickyScroll.enabled": false,
+    "cmake.showNotAllDocumentsSavedQuestion": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "git.ignoreRebaseWarning": true,
+    "explorer.copyRelativePathSeparator": "/",
+    "glsllint.glslangValidatorArgs": [
+        "-V"
+    ],
+    "scm.showHistoryGraph": false,
+    "explorer.confirmPasteNative": false,
+    "C_mantic.alertLevel": "Error",
+    "C_mantic.alwaysMoveComments": false,
+    "cmake.languageSupport.enableFileAPI": true,
+    "C_Cpp.intelliSenseUpdateDelay": 500,
+    "C_Cpp.codeAnalysis.updateDelay": 0,
+    "C_Cpp.vcpkg.enabled": false,
+    "[glsl]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "editor.experimental.asyncTokenization": true,
+    "editor.renderLineHighlight": "all",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.roundedSelection": false,
+    "debug.console.fontSize": 15,
+    "cSpell.enabledLanguageIds": [
+        "markdown",
+        "plaintext"
+    ],
+    "cSpell.enableFiletypes": [
+        "txt"
+    ],
+    "[slang]": {
+        "editor.defaultFormatter": "shader-slang.slang-language-extension"
+    },
+    "cmake.generator": "Ninja",
+    "workbench.colorTheme": "Visual Studio Dark - C++",
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "xmake.runMode": "buildRun",
+    "[cmake]": {
+        "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
+    },
+    "cmake.configureOnEdit": false,
+    "cmake.options.statusBarVisibility": "compact",
+    "dotnetAcquisitionExtension.enableTelemetry": false,
+    "explorer.compactFolders": false,
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.tabs.hideCondition": "never",
+    "local-history.daysLimit": 7,
+    "clangd.detectExtensionConflicts": false,
+    "C_Cpp.codeAnalysis.runAutomatically": false,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "window.titleBarStyle": "custom",
+    "git.autofetchPeriod": 60,
+    "terminal.integrated.fontSize": 15,
+    "editor.fontSize": 15,
+    "terminal.integrated.fontWeightBold": "normal",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "githubPullRequests.pullBranch": "never",
+    "githubPullRequests.createOnPublishBranch": "never"
+}
